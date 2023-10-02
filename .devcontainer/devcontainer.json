@@ -1,0 +1,24 @@
+{
+    "name": "go-devcontainer",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {}
+    },
+    "runArgs": [],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "golang.Go"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": {
+                    "fish": {
+                        "path": "/usr/bin/fish"
+                    }
+                },
+                "terminal.integrated.defaultProfile.linux": "fish"
+            }
+        }
+    },
+    "remoteUser": "vscode"
+}
