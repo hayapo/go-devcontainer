@@ -1,7 +1,7 @@
 {
   "terminal.integrated.profiles.linux": {
     "fish": {
-      "path": "fish"
+      "path": "/usr/bin/fish"
     }
   },
   "terminal.integrated.defaultProfile.linux": "fish"

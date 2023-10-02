@@ -9,15 +9,7 @@
         "vscode": {
             "extensions": [
                 "golang.Go"
-            ],
-            "settings": {
-                "terminal.integrated.shell.linux": {
-                    "fish": {
-                        "path": "/usr/bin/fish"
-                    }
-                },
-                "terminal.integrated.defaultProfile.linux": "fish"
-            }
+            ]
         }
     },
     "remoteUser": "vscode"
